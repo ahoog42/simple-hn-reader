@@ -102,7 +102,7 @@ jobs:
 
       - id: upload
         name: NowSecure upload app
-        uses: nowsecure/nowsecure-action/upload-app@analysis-type
+        uses: cosdon/nowsecure-action/upload-app@analysis-type
         with:
           platform_token: ${{ secrets.NS_TOKEN }}
           # TODO: Replace application path.
