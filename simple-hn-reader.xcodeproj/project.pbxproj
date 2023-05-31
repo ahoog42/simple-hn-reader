@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4518D7E82A27EB1E004BC1B4 /* simple_hn_readerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4518D7E72A27EB1E004BC1B4 /* simple_hn_readerApp.swift */; };
+		4518D7EA2A27EB1E004BC1B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4518D7E92A27EB1E004BC1B4 /* ContentView.swift */; };
+		4518D7EC2A27EB1F004BC1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4518D7EB2A27EB1F004BC1B4 /* Assets.xcassets */; };
+		4518D7EF2A27EB1F004BC1B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4518D7EE2A27EB1F004BC1B4 /* Preview Assets.xcassets */; };
+		4518D7F92A27EB1F004BC1B4 /* simple_hn_readerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4518D7F82A27EB1F004BC1B4 /* simple_hn_readerTests.swift */; };
+		4518D8032A27EB1F004BC1B4 /* simple_hn_readerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4518D8022A27EB1F004BC1B4 /* simple_hn_readerUITests.swift */; };
+		4518D8052A27EB1F004BC1B4 /* simple_hn_readerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4518D8042A27EB1F004BC1B4 /* simple_hn_readerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4518D7F52A27EB1F004BC1B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4518D7DC2A27EB1E004BC1B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4518D7E32A27EB1E004BC1B4;
+			remoteInfo = "simple-hn-reader";
+		};
+		4518D7FF2A27EB1F004BC1B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4518D7DC2A27EB1E004BC1B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4518D7E32A27EB1E004BC1B4;
+			remoteInfo = "simple-hn-reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4518D7E42A27EB1E004BC1B4 /* simple-hn-reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-hn-reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4518D7E72A27EB1E004BC1B4 /* simple_hn_readerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_hn_readerApp.swift; sourceTree = "<group>"; };
+		4518D7E92A27EB1E004BC1B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4518D7EB2A27EB1F004BC1B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4518D7EE2A27EB1F004BC1B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4518D7F42A27EB1F004BC1B4 /* simple-hn-readerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-hn-readerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4518D7F82A27EB1F004BC1B4 /* simple_hn_readerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_hn_readerTests.swift; sourceTree = "<group>"; };
+		4518D7FE2A27EB1F004BC1B4 /* simple-hn-readerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-hn-readerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4518D8022A27EB1F004BC1B4 /* simple_hn_readerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_hn_readerUITests.swift; sourceTree = "<group>"; };
+		4518D8042A27EB1F004BC1B4 /* simple_hn_readerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_hn_readerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4518D7E12A27EB1E004BC1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4518D7F12A27EB1F004BC1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4518D7FB2A27EB1F004BC1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4518D7DB2A27EB1E004BC1B4 = {
+			isa = PBXGroup;
+			children = (
+				4518D7E62A27EB1E004BC1B4 /* simple-hn-reader */,
+				4518D7F72A27EB1F004BC1B4 /* simple-hn-readerTests */,
+				4518D8012A27EB1F004BC1B4 /* simple-hn-readerUITests */,
+				4518D7E52A27EB1E004BC1B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4518D7E52A27EB1E004BC1B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4518D7E42A27EB1E004BC1B4 /* simple-hn-reader.app */,
+				4518D7F42A27EB1F004BC1B4 /* simple-hn-readerTests.xctest */,
+				4518D7FE2A27EB1F004BC1B4 /* simple-hn-readerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4518D7E62A27EB1E004BC1B4 /* simple-hn-reader */ = {
+			isa = PBXGroup;
+			children = (
+				4518D7E72A27EB1E004BC1B4 /* simple_hn_readerApp.swift */,
+				4518D7E92A27EB1E004BC1B4 /* ContentView.swift */,
+				4518D7EB2A27EB1F004BC1B4 /* Assets.xcassets */,
+				4518D7ED2A27EB1F004BC1B4 /* Preview Content */,
+			);
+			path = "simple-hn-reader";
+			sourceTree = "<group>";
+		};
+		4518D7ED2A27EB1F004BC1B4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4518D7EE2A27EB1F004BC1B4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4518D7F72A27EB1F004BC1B4 /* simple-hn-readerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4518D7F82A27EB1F004BC1B4 /* simple_hn_readerTests.swift */,
+			);
+			path = "simple-hn-readerTests";
+			sourceTree = "<group>";
+		};
+		4518D8012A27EB1F004BC1B4 /* simple-hn-readerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4518D8022A27EB1F004BC1B4 /* simple_hn_readerUITests.swift */,
+				4518D8042A27EB1F004BC1B4 /* simple_hn_readerUITestsLaunchTests.swift */,
+			);
+			path = "simple-hn-readerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4518D7E32A27EB1E004BC1B4 /* simple-hn-reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4518D8082A27EB1F004BC1B4 /* Build configuration list for PBXNativeTarget "simple-hn-reader" */;
+			buildPhases = (
+				4518D7E02A27EB1E004BC1B4 /* Sources */,
+				4518D7E12A27EB1E004BC1B4 /* Frameworks */,
+				4518D7E22A27EB1E004BC1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "simple-hn-reader";
+			productName = "simple-hn-reader";
+			productReference = 4518D7E42A27EB1E004BC1B4 /* simple-hn-reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4518D7F32A27EB1F004BC1B4 /* simple-hn-readerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4518D80B2A27EB1F004BC1B4 /* Build configuration list for PBXNativeTarget "simple-hn-readerTests" */;
+			buildPhases = (
+				4518D7F02A27EB1F004BC1B4 /* Sources */,
+				4518D7F12A27EB1F004BC1B4 /* Frameworks */,
+				4518D7F22A27EB1F004BC1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4518D7F62A27EB1F004BC1B4 /* PBXTargetDependency */,
+			);
+			name = "simple-hn-readerTests";
+			productName = "simple-hn-readerTests";
+			productReference = 4518D7F42A27EB1F004BC1B4 /* simple-hn-readerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4518D7FD2A27EB1F004BC1B4 /* simple-hn-readerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4518D80E2A27EB1F004BC1B4 /* Build configuration list for PBXNativeTarget "simple-hn-readerUITests" */;
+			buildPhases = (
+				4518D7FA2A27EB1F004BC1B4 /* Sources */,
+				4518D7FB2A27EB1F004BC1B4 /* Frameworks */,
+				4518D7FC2A27EB1F004BC1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4518D8002A27EB1F004BC1B4 /* PBXTargetDependency */,
+			);
+			name = "simple-hn-readerUITests";
+			productName = "simple-hn-readerUITests";
+			productReference = 4518D7FE2A27EB1F004BC1B4 /* simple-hn-readerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4518D7DC2A27EB1E004BC1B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4518D7E32A27EB1E004BC1B4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					4518D7F32A27EB1F004BC1B4 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 4518D7E32A27EB1E004BC1B4;
+					};
+					4518D7FD2A27EB1F004BC1B4 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 4518D7E32A27EB1E004BC1B4;
+					};
+				};
+			};
+			buildConfigurationList = 4518D7DF2A27EB1E004BC1B4 /* Build configuration list for PBXProject "simple-hn-reader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4518D7DB2A27EB1E004BC1B4;
+			productRefGroup = 4518D7E52A27EB1E004BC1B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4518D7E32A27EB1E004BC1B4 /* simple-hn-reader */,
+				4518D7F32A27EB1F004BC1B4 /* simple-hn-readerTests */,
+				4518D7FD2A27EB1F004BC1B4 /* simple-hn-readerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4518D7E22A27EB1E004BC1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4518D7EF2A27EB1F004BC1B4 /* Preview Assets.xcassets in Resources */,
+				4518D7EC2A27EB1F004BC1B4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4518D7F22A27EB1F004BC1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4518D7FC2A27EB1F004BC1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4518D7E02A27EB1E004BC1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4518D7EA2A27EB1E004BC1B4 /* ContentView.swift in Sources */,
+				4518D7E82A27EB1E004BC1B4 /* simple_hn_readerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4518D7F02A27EB1F004BC1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4518D7F92A27EB1F004BC1B4 /* simple_hn_readerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4518D7FA2A27EB1F004BC1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4518D8032A27EB1F004BC1B4 /* simple_hn_readerUITests.swift in Sources */,
+				4518D8052A27EB1F004BC1B4 /* simple_hn_readerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4518D7F62A27EB1F004BC1B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4518D7E32A27EB1E004BC1B4 /* simple-hn-reader */;
+			targetProxy = 4518D7F52A27EB1F004BC1B4 /* PBXContainerItemProxy */;
+		};
+		4518D8002A27EB1F004BC1B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4518D7E32A27EB1E004BC1B4 /* simple-hn-reader */;
+			targetProxy = 4518D7FF2A27EB1F004BC1B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4518D8062A27EB1F004BC1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4518D8072A27EB1F004BC1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4518D8092A27EB1F004BC1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"simple-hn-reader/Preview Content\"";
+				DEVELOPMENT_TEAM = XW66E6M5N4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewhoog.simple-hn-reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4518D80A2A27EB1F004BC1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"simple-hn-reader/Preview Content\"";
+				DEVELOPMENT_TEAM = XW66E6M5N4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewhoog.simple-hn-reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4518D80C2A27EB1F004BC1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XW66E6M5N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewhoog.simple-hn-readerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simple-hn-reader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/simple-hn-reader";
+			};
+			name = Debug;
+		};
+		4518D80D2A27EB1F004BC1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XW66E6M5N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewhoog.simple-hn-readerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simple-hn-reader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/simple-hn-reader";
+			};
+			name = Release;
+		};
+		4518D80F2A27EB1F004BC1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XW66E6M5N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewhoog.simple-hn-readerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "simple-hn-reader";
+			};
+			name = Debug;
+		};
+		4518D8102A27EB1F004BC1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XW66E6M5N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewhoog.simple-hn-readerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "simple-hn-reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4518D7DF2A27EB1E004BC1B4 /* Build configuration list for PBXProject "simple-hn-reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4518D8062A27EB1F004BC1B4 /* Debug */,
+				4518D8072A27EB1F004BC1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4518D8082A27EB1F004BC1B4 /* Build configuration list for PBXNativeTarget "simple-hn-reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4518D8092A27EB1F004BC1B4 /* Debug */,
+				4518D80A2A27EB1F004BC1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4518D80B2A27EB1F004BC1B4 /* Build configuration list for PBXNativeTarget "simple-hn-readerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4518D80C2A27EB1F004BC1B4 /* Debug */,
+				4518D80D2A27EB1F004BC1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4518D80E2A27EB1F004BC1B4 /* Build configuration list for PBXNativeTarget "simple-hn-readerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4518D80F2A27EB1F004BC1B4 /* Debug */,
+				4518D8102A27EB1F004BC1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4518D7DC2A27EB1E004BC1B4 /* Project object */;
+}
