@@ -4,6 +4,10 @@ on:
   # manual trigger but change to any supported event
   # see addl: https://www.andrewhoog.com/post/how-to-build-react-native-android-app-with-github-actions/#3-run-build-workflow
   workflow_dispatch:
+  # run on push to any branch except main
+  push:
+    branches-ignore:
+      - main
 
 jobs:
   build_with_signing:
