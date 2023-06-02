@@ -47,7 +47,6 @@ class StoriesModelView: ObservableObject {
                         let descendants = value["descendants"] as? Int ?? 0
                         let kids = value["kids"] as? [Int] ?? []
                         let story = Story(id: id, title: title, type: type, url: url, by: by, time: time, score: score, descendants: descendants, kids: kids)
-                        //let story = Story(id: id, title: title, url: url, by: by, time: time, score: score, descendants: descendants, kids: kids)
                         // add each story to the stories array and then print out the id, title and url
                         self.stories.append(story)
                         print("id: \(id), title: \(title), url: \(url), points: \(score)")
