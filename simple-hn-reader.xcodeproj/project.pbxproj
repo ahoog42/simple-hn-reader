@@ -22,6 +22,7 @@
 		4518D8282A28F09F004BC1B4 /* StoriesModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4518D8272A28F09F004BC1B4 /* StoriesModelView.swift */; };
 		4518D82B2A28F17D004BC1B4 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4518D82A2A28F17D004BC1B4 /* FirebaseDatabase */; };
 		4518D82D2A28F8AF004BC1B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4518D82C2A28F8AF004BC1B4 /* GoogleService-Info.plist */; };
+		452C5BA42A2A7EBD00F341AA /* StoryOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452C5BA32A2A7EBD00F341AA /* StoryOverview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		4518D8252A28EFD8004BC1B4 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		4518D8272A28F09F004BC1B4 /* StoriesModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesModelView.swift; sourceTree = "<group>"; };
 		4518D82C2A28F8AF004BC1B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		452C5BA32A2A7EBD00F341AA /* StoryOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryOverview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				4518D81F2A28EF86004BC1B4 /* SearchView.swift */,
 				4518D8212A28EF8D004BC1B4 /* AccountView.swift */,
 				4518D8232A28EF97004BC1B4 /* SettingsView.swift */,
+				452C5BA32A2A7EBD00F341AA /* StoryOverview.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				4518D7E82A27EB1E004BC1B4 /* simple_hn_readerApp.swift in Sources */,
 				4518D8282A28F09F004BC1B4 /* StoriesModelView.swift in Sources */,
 				4518D8222A28EF8D004BC1B4 /* AccountView.swift in Sources */,
+				452C5BA42A2A7EBD00F341AA /* StoryOverview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
