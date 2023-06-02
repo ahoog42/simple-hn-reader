@@ -12,7 +12,14 @@ struct NewsView: View {
     @StateObject var storiesModelView = StoriesModelView()
     
     var body: some View {
-        Text("HN Stories")
+        // Text("HN Stories")
+        // create a list of stories from the storiesModelView
+        // display in a scrollable list
+        List(storiesModelView.stories) { story in
+            // display the story title
+            Text(story.title)
+        }
+
     }
 }
 

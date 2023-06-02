@@ -17,7 +17,7 @@ import Foundation
 // 6. score: Int
 // 7. descendants: Int
 // 8. kids: [Int]
-struct Story: Codable {
+struct Story: Codable, Identifiable {
     let id: Int
     let title: String
     let type: String
