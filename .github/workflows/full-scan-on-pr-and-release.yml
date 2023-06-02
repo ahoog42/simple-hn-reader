@@ -28,6 +28,7 @@ jobs:
           P12_PASSWORD: ${{ secrets.P12_PASSWORD }}
           PROVISION_PROFILES_BASE64: ${{ secrets.PROVISION_PROFILES_BASE64 }}
           KEYCHAIN_PASSWORD: ${{ secrets.KEYCHAIN_PASSWORD }}
+          GOOGLE_SERVICE_INFO: ${{ secrets.GOOGLE_SERVICE_INFO }}
         run: |
           # create variables
           CERTIFICATE_PATH=$RUNNER_TEMP/build_certificate.p12
@@ -58,7 +59,11 @@ jobs:
           
           # echo some output
           security find-identity -v -p codesigning
-          ls -l ~/Library/MobileDevice/Provisioning\ Profiles  
+          ls -l ~/Library/MobileDevice/Provisioning\ Profiles
+          
+          # install google service info
+          echo -n "$GOOGLE_SERVICE_INFO" | base64 --decode -o GoogleService-Info.plist
+
 
       - name: build archive
         run: |
