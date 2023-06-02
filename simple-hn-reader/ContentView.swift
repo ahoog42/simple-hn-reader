@@ -21,29 +21,29 @@ struct ContentView: View {
             }
             .tabItem {
                 Image(systemName: "house")
-                Text("Top News")
+                Text("News")
             }
-            NavigationView {
-                SearchView()
-            }
-            .tabItem {
-                Image(systemName: "magnifyingglass")
-                Text("Search")
-            }
-            NavigationView {
-                AccountView()
-            }
-            .tabItem {
-                Image(systemName: "person")
-                Text("Account")
-            }
-            NavigationView {
-                SettingsView()
-            }
-            .tabItem {
-                Image(systemName: "gear")
-                Text("Settings")
-            }
+//            NavigationView {
+//                SearchView()
+//            }
+//            .tabItem {
+//                Image(systemName: "magnifyingglass")
+//                Text("Search")
+//            }
+//            NavigationView {
+//                AccountView()
+//            }
+//            .tabItem {
+//                Image(systemName: "person")
+//                Text("Account")
+//            }
+//            NavigationView {
+//                SettingsView()
+//            }
+//            .tabItem {
+//                Image(systemName: "gear")
+//                Text("Settings")
+//            }
         }
 
     }
