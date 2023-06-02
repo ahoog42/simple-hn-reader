@@ -12,14 +12,19 @@ struct NewsView: View {
     @StateObject var storiesModelView = StoriesModelView()
     
     var body: some View {
-        // Text("HN Stories")
-        // create a list of stories from the storiesModelView
-        // display in a scrollable list
-        List(storiesModelView.stories) { story in
-            // display the story title
-            Text(story.title)
+        // create a ScrollView with a LazyVStack embedded
+        // the LazyVStack should contain a ForEach loop that iterates over the storiesModelView.stories property
+        // the ForEach loop should create a StoryOverview for each story
+        // the ScrollView should have a padding of 10
+        ScrollView {
+            LazyVStack {
+                ForEach(storiesModelView.stories) { story in
+                    StoryOverview(story: story)
+                }
+            }
+            .padding(10)
+            .navigationTitle("Simple HN Reader - Copilot")
         }
-
     }
 }
 

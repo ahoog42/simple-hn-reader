@@ -18,7 +18,7 @@ class StoriesModelView: ObservableObject {
         // connect to HackerNews API with Firebase Database
         let db = Database.database(url: "https://hacker-news.firebaseio.com/").reference().child("v0").child("topstories")
         // pull top 500 stories
-        db.queryLimited(toFirst: 500).observeSingleEvent(of: .value) { snapshot, error in
+        db.queryLimited(toFirst: 50).observeSingleEvent(of: .value) { snapshot, error in
             if let error = error {
                 print("Error: \(error)")
                 return
