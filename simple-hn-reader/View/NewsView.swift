@@ -17,13 +17,13 @@ struct NewsView: View {
         // the ForEach loop should create a StoryOverview for each story
         // the ScrollView should have a padding of 10
         ScrollView {
-            LazyVStack {
-                ForEach(storiesModelView.stories) { story in
-                    StoryOverview(story: story)
-                }
-            }
+LazyVStack {
+    ForEach(storiesModelView.stories) { story in
+        StoryOverview(story: story)
+        Divider()
+    }
+}
             .padding(10)
-            .navigationTitle("Simple HN Reader - Copilot")
         }
     }
 }
