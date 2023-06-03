@@ -45,6 +45,8 @@ struct ContentView: View {
 //                Text("Settings")
 //            }
         }
+        .navigationTitle("Simple HN Reader - Copilot")
+        .navigationBarTitleDisplayMode(.inline)
 
     }
 }
