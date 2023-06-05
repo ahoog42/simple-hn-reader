@@ -10,24 +10,25 @@ import SwiftUI
 struct StoryOverview: View {
     // create a Story property
     var story: Story
-
-
+    var storyNumber: Int
+    
+    
     var body: some View {
         // create a var called storyDomain what is the domain name from the url
         // remove the https:// or http:// from the url
         // and then remove everything after the first / in the url
         let storyDomain = story.url.replacingOccurrences(of: "https://", with: "").replacingOccurrences(of: "http://", with: "").components(separatedBy: "/")[0]
-
+        
         // create a VStack with two HStacks embedded
         // the first HStack should contain the title the domain name from the url
         // the second HStack should contain the score, the number of comments, and the author
         // the VStack should have a padding of 10
         VStack(alignment: .leading, spacing: 5) {
             HStack {
-                if story.url == nil || story.url == "" {
-                    Text(story.title)
+                if story.url == "" {
+                    Text("\(storyNumber). \(story.title)")
                 } else {
-                    Link(story.title, destination: URL(string: story.url)!)
+                    Link("\(storyNumber). \(story.title)", destination: URL(string: story.url)!)
                 }
             }
             HStack {
@@ -41,15 +42,16 @@ struct StoryOverview: View {
         }
         .padding(10)
     }
-
+    
     // create an init function that takes a Story as a parameter
-    init(story: Story) {
+    init(story: Story, number: Int) {
         // set the title and domain properties
         // set the score, number of comments, and author properties
         // set the story property
         self.story = story
+        self.storyNumber = number
     }
-
+    
 }
 
 //struct StoryOverview_Previews: PreviewProvider {
