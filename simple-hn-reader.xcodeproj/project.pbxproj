@@ -23,6 +23,8 @@
 		4518D82B2A28F17D004BC1B4 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4518D82A2A28F17D004BC1B4 /* FirebaseDatabase */; };
 		4518D82D2A28F8AF004BC1B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4518D82C2A28F8AF004BC1B4 /* GoogleService-Info.plist */; };
 		452C5BA42A2A7EBD00F341AA /* StoryOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452C5BA32A2A7EBD00F341AA /* StoryOverview.swift */; };
+		45849F2A2A2FEDFE00C8A86A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45849F292A2FEDFE00C8A86A /* DetailView.swift */; };
+		45849F2C2A2FEE0A00C8A86A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45849F2B2A2FEE0A00C8A86A /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		4518D8272A28F09F004BC1B4 /* StoriesModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesModelView.swift; sourceTree = "<group>"; };
 		4518D82C2A28F8AF004BC1B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		452C5BA32A2A7EBD00F341AA /* StoryOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryOverview.swift; sourceTree = "<group>"; };
+		45849F292A2FEDFE00C8A86A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		45849F2B2A2FEE0A00C8A86A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,8 @@
 				4518D8212A28EF8D004BC1B4 /* AccountView.swift */,
 				4518D8232A28EF97004BC1B4 /* SettingsView.swift */,
 				452C5BA32A2A7EBD00F341AA /* StoryOverview.swift */,
+				45849F292A2FEDFE00C8A86A /* DetailView.swift */,
+				45849F2B2A2FEE0A00C8A86A /* WebView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -325,12 +331,14 @@
 				4518D8262A28EFD8004BC1B4 /* Story.swift in Sources */,
 				4518D8202A28EF86004BC1B4 /* SearchView.swift in Sources */,
 				4518D81E2A28EF77004BC1B4 /* NewsView.swift in Sources */,
+				45849F2A2A2FEDFE00C8A86A /* DetailView.swift in Sources */,
 				4518D7EA2A27EB1E004BC1B4 /* ContentView.swift in Sources */,
 				4518D8242A28EF97004BC1B4 /* SettingsView.swift in Sources */,
 				4518D7E82A27EB1E004BC1B4 /* simple_hn_readerApp.swift in Sources */,
 				4518D8282A28F09F004BC1B4 /* StoriesModelView.swift in Sources */,
 				4518D8222A28EF8D004BC1B4 /* AccountView.swift in Sources */,
 				452C5BA42A2A7EBD00F341AA /* StoryOverview.swift in Sources */,
+				45849F2C2A2FEE0A00C8A86A /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
