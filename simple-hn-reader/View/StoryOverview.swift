@@ -25,18 +25,29 @@ struct StoryOverview: View {
         VStack(alignment: .leading, spacing: 5) {
             HStack {
                 if story.url == "" {
-                    Text("\(String(storyNumber)). \(story.title)")
+                    // create a NavigationLink that navigates to the DetailView
+                    // for the url, use this pattern: https://news.ycombinator.com/item?id=36215144
+                    // and replace the id with the story.id
+                    NavigationLink(destination: DetailView(url: "https://news.ycombinator.com/item?id=\(story.id)")) {
+                        Text("\(String(storyNumber)). \(story.title)")
+                    }
                 } else {
-                    Link("\(String(storyNumber)). \(story.title)", destination: URL(string: story.url)!)
+                    NavigationLink(destination: DetailView(url: story.url)) {
+                        Text("\(String(storyNumber)). \(story.title)")
+                    }
+
                 }
             }
             HStack {
-                Link(storyDomain, destination: URL(string: "https://news.ycombinator.com/from?site=\(storyDomain)")!)
+                NavigationLink(storyDomain, destination: DetailView(url: "https://news.ycombinator.com/from?site=\(storyDomain)"))
             }
             HStack {
                 Text("\(String(story.score)) points ")
-                Text("by \(String(story.by)) ")
-                Text("| \(String(story.descendants)) comments")
+                HStack {
+                    Text("by ")
+                    NavigationLink(String(story.by), destination: DetailView(url: "https://news.ycombinator.com/user?id=\(story.by)"))
+                }
+                NavigationLink("| \(String(story.descendants)) comments", destination: DetailView(url: "https://news.ycombinator.com/item?id=\(story.id)"))
             }
         }
         .padding(10)
