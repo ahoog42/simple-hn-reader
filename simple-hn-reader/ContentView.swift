@@ -23,27 +23,27 @@ struct ContentView: View {
                 Image(systemName: "house")
                 Text("News")
             }
-//            NavigationView {
-//                SearchView()
-//            }
-//            .tabItem {
-//                Image(systemName: "magnifyingglass")
-//                Text("Search")
-//            }
-//            NavigationView {
-//                AccountView()
-//            }
-//            .tabItem {
-//                Image(systemName: "person")
-//                Text("Account")
-//            }
-//            NavigationView {
-//                SettingsView()
-//            }
-//            .tabItem {
-//                Image(systemName: "gear")
-//                Text("Settings")
-//            }
+            NavigationView {
+                SearchView()
+            }
+            .tabItem {
+                Image(systemName: "magnifyingglass")
+                Text("Search")
+            }
+            NavigationView {
+                AccountView()
+            }
+            .tabItem {
+                Image(systemName: "person")
+                Text("Account")
+            }
+            NavigationView {
+                SettingsView()
+            }
+            .tabItem {
+                Image(systemName: "gear")
+                Text("Settings")
+            }
         }
         .navigationTitle("Simple HN Reader - Copilot")
         .navigationBarTitleDisplayMode(.inline)

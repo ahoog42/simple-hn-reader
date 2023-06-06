@@ -12,13 +12,12 @@ struct StoryOverview: View {
     var story: Story
     var storyNumber: Int
 
-
     var body: some View {
         // create a var called storyDomain what is the domain name from the url
         // remove the https:// or http:// from the url
         // and then remove everything after the first / in the url
         let storyDomain = story.url.replacingOccurrences(of: "https://", with: "").replacingOccurrences(of: "http://", with: "").components(separatedBy: "/")[0]
-
+        
         // create a VStack with two HStacks embedded
         // the first HStack should contain the title the domain name from the url
         // the second HStack should contain the score, the number of comments, and the author
@@ -42,7 +41,7 @@ struct StoryOverview: View {
         }
         .padding(10)
     }
-
+    
     // create an init function that takes a Story as a parameter
     init(story: Story, storyNumber: Int) {
         // set the title and domain properties
@@ -51,7 +50,7 @@ struct StoryOverview: View {
         self.story = story
         self.storyNumber = storyNumber
     }
-
+    
 }
 
 //struct StoryOverview_Previews: PreviewProvider {
