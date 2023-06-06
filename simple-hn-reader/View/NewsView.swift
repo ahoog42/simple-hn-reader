@@ -18,8 +18,8 @@ struct NewsView: View {
         // the ScrollView should have a padding of 10
         ScrollView {
 LazyVStack {
-    ForEach(storiesModelView.stories) { story in
-        StoryOverview(story: story)
+    ForEach(storiesModelView.stories.indices, id: \.self) { index in
+        StoryOverview(story: storiesModelView.stories[index], storyNumber: index + 1)
         Divider()
     }
 }
