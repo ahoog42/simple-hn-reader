@@ -11,8 +11,7 @@ struct StoryOverview: View {
     // create a Story property
     var story: Story
     var storyNumber: Int
-    
-    
+
     var body: some View {
         // create a var called storyDomain what is the domain name from the url
         // remove the https:// or http:// from the url
@@ -26,9 +25,9 @@ struct StoryOverview: View {
         VStack(alignment: .leading, spacing: 5) {
             HStack {
                 if story.url == "" {
-                    Text("\(storyNumber). \(story.title)")
+                    Text("\(String(storyNumber)). \(story.title)")
                 } else {
-                    Link("\(storyNumber). \(story.title)", destination: URL(string: story.url)!)
+                    Link("\(String(storyNumber)). \(story.title)", destination: URL(string: story.url)!)
                 }
             }
             HStack {
@@ -44,12 +43,12 @@ struct StoryOverview: View {
     }
     
     // create an init function that takes a Story as a parameter
-    init(story: Story, number: Int) {
+    init(story: Story, storyNumber: Int) {
         // set the title and domain properties
         // set the score, number of comments, and author properties
         // set the story property
         self.story = story
-        self.storyNumber = number
+        self.storyNumber = storyNumber
     }
     
 }
