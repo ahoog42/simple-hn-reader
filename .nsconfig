@@ -1,0 +1,8 @@
+minimum-severity: info
+include-warnings: true
+summary: short  #Can be long or short
+include-checks:
+ - finding-snoop_network_hosts
+ - snoop_network_hosts
+ - finding-api_discovery
+ - api_discovery
