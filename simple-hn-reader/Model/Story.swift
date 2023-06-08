@@ -26,7 +26,7 @@ struct Story: Codable, Identifiable {
     let time: Int
     let score: Int
     let descendants: Int
-    let kids: [Int]
+    let kids: [Int]? // this is an optional because some stories don't have comments
 
     enum CodingKeys: String, CodingKey {
         case id
