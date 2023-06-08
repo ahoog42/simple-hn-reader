@@ -1,0 +1,6 @@
+minimum-severity: info
+include-warnings: true
+summary: short  #Can be long or short
+include-checks:
+ - finding-geoip
+ - finding-api_discovery
