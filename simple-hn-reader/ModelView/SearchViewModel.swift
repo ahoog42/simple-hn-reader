@@ -73,7 +73,7 @@ class SearchViewModel: ObservableObject {
                     print("Error: Data is nil")
                 }
             } else {   
-                print("Error: \(error)")
+                print("Error: \(String(describing: error))")
                 // self.errorMessage = error?.localizedDescription ?? "Unknown error"
             }
         }
