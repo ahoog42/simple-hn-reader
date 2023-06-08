@@ -19,6 +19,7 @@ struct SearchView: View {
         // the ForEach loop should create a StoryOverview for each story
         NavigationView {
             VStack {
+                HStack {
                 TextField("Search", text: $searchViewModel.searchTerm)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding(10)
@@ -29,8 +30,11 @@ struct SearchView: View {
                 }, label: {
                     Image(systemName: "magnifyingglass")
                 })
+                }
                 List(searchViewModel.searchResults) { story in
-                        Text(story.title ?? String(story.id))
+                        Text(story.title ?? "No Title")
+                            .font(.headline)
+                            .padding(10)
                         Divider()
                 }
             }
