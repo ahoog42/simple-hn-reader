@@ -3,6 +3,7 @@
 //  simple-hn-reader
 //
 //  Created by Hiro Protagonist on 5/31/23.
+// GitHub Universe 2023
 //
 
 import SwiftUI
