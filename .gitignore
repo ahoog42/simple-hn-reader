@@ -3,6 +3,9 @@
 
 .DS_Store
 
+# don't commit Google Firebase secrets
+GoogleService-Info.plist
+
 ### Swift ###
 # Xcode
 #
