@@ -108,7 +108,7 @@ jobs:
 
       # Replace with whatever pulls the application file before we upload.
       - name: Download application
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           # Generated in the "build" stage.
           name: app
